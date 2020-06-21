@@ -23,7 +23,7 @@ function makeBoard() {
   }
 }
 
-const playerTurn = document.querySelector('#turn');
+const playerTurn = document.querySelector('#playerTurn');
 playerTurn.innerText = `${currPlayer}`;
 
 /** makeHtmlBoard: make HTML table and row of column tops. */
